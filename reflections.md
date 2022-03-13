@@ -1,3 +1,5 @@
+[Home](https://avabrooks.github.io/avarepository/) | [Techtalks](https://avabrooks.github.io/avarepository/techtalks) | [Reflections](https://avabrooks.github.io/avarepository/reflections) 
+
 # Reflections for Trimester 3:
 
 ### 3/7: What can I do with Tech to improve mine or others education?
