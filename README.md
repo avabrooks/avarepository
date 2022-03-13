@@ -7,6 +7,12 @@
 | ------ | ----- | ----- | ---- |
 | 0| Teams, Plans, Jobs | [Data Structures](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-0---Data-Structures) | [Ticket](https://github.com/avabrooks/swagketo/projects/1#card-78790111)
 
+## Tri 3 TimeBox: 
+
+| Week | Theme | Tech Talk | Ticket | 
+| ------ | ----- | ----- | ---- |
+| 0| Teams, Plans, Jobs | [Data Structures](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-0---Data-Structures) | [Ticket](https://github.com/avabrooks/swagketo/projects/1#card-78790111)
+
 ## Github Activity: 
 | Name | Profile | Issues | Commits | 
 | -- | -- | -- | -- |
