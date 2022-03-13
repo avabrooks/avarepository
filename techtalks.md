@@ -1,3 +1,5 @@
+{% include index.md %} 
+
 ## Week 0
  * Plans: 
      - question
