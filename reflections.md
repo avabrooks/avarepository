@@ -1,4 +1,6 @@
-## What can I do with Tech to improve mine or others education?
+# Reflections for Trimester 3:
+
+### 3/7: What can I do with Tech to improve mine or others education?
 
 Technology is an essential part of our modern-day society. From simple text messages to a wide range of social media posts, technology is a tool that aides global communication and connection. Personally, through my creation of various websites in AP CSP and AP CSA, I have focused on a myriad of topics. With my most recent contribution being a tutoring site, this is a prime example of how I can use tech to improve the education of myself and others. In a very literal sense, this website can help connect tutors and tutees in need of help. While this can be done over other sites, the most recent creation was a one-stop-shop for all things Del Norte tutoring. By making things more easily accessible to the general public, finding resources can be easier for people, especially those who are younger. While websites just touch the brink of technology's potential, the work we produce in AP CSA can continue to provide connections among people worldwide.
 
