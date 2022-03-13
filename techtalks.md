@@ -1,6 +1,6 @@
 [Home](https://avabrooks.github.io/avarepository/) | [Techtalks](https://avabrooks.github.io/avarepository/techtalks) | [Reflections](https://avabrooks.github.io/avarepository/reflections) 
 
-## Week 0
+## [Week 0](https://replit.com/@avabrooks/Tri-3-TT0#README.md)
  * Plans: 
      - question
  * Notes: 
