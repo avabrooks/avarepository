@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 [techtalks](https://avabrooks.github.io/avarepository/techtalks)
 
-[reflections(https://avabrooks.github.io/avarepository/reflections)
+[reflections](https://avabrooks.github.io/avarepository/reflections)
 
 {% include_relative README.md %}
 
