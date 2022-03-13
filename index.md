@@ -1,4 +1,4 @@
-## Welcome to Ava's Invidivual Page
+# Welcome to Ava's Invidivual Page
 
 {% include_relative README.md %}
 
