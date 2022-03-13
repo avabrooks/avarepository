@@ -1,4 +1,4 @@
-{% include index.md %} 
+[Home](https://avabrooks.github.io/avarepository/) | [Techtalks](https://avabrooks.github.io/avarepository/techtalks) | [Reflections](https://avabrooks.github.io/avarepository/reflections) 
 
 ## Week 0
  * Plans: 
