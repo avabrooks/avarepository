@@ -1,6 +1,5 @@
 [Home](https://avabrooks.github.io/avarepository/) | [Techtalks](https://avabrooks.github.io/avarepository/techtalks) | [Reflections](https://avabrooks.github.io/avarepository/reflections) 
 
-# Welcome to Ava’s Invidivual Page
 
 ## Tri 3 TimeBox: 
 
@@ -10,7 +9,7 @@
 
 ## Github Activity: 
 | Name | Profile | Issues | Commits | 
-| ------ | ----- | ----- | ---- |
+| -- | -- | -- | -- |
 | Ava| [@avabrooks](https://github.com/avabrooks) | [Issues](https://github.com/avabrooks/swagketo/issues/assigned/avabrooks) | [Commits](https://github.com/avabrooks/swagketo/commits?author=avabrooks)
 
 
