@@ -5,7 +5,7 @@
 
 | Week | Theme | Tech Talk | Ticket | 
 | ------ | ----- | ----- | ---- |
-| 0| Teams, Plans, Jobs | [Data Structures](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-0---Data-Structures) | [Ticket](https://github.com/avabrooks/avarepository/issues/1)
+| 0| Teams, Plans, Jobs | [Data Structures](https://avabrooks.github.io/avarepository/techtalks) | [Ticket](https://github.com/avabrooks/avarepository/issues/1)
 
 ## Github Activity:
 
