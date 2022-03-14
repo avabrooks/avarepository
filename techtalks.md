@@ -12,6 +12,17 @@
         - swapToLowHighOrder
           - compare values
           - use this.value to comapre the two given numbers
+          ```
+          //method to compare values
+           public void swapToLowHighOrder(SwitchNumbers i) {
+          if (this.value > i.value) {
+            int z = this.value;
+            this.value = i.value;
+            i.value = z;
+                 }
+              }
+          ```
+          
         - toString method
           - return a string rather than object to print 
           - %d used for integers
