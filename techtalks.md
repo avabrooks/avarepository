@@ -7,6 +7,7 @@
         - Use java scanner(similar to old menu) to get user input
         - Create rows as objects to initialize each row for 'title' and 'action'  
         - Use loops(similar to old menu) to continue to run menu 
+       
      - Swap [method](https://replit.com/@avabrooks/Tri-3-TT0#src/SwitchNumbers.java) to swap 2 numbers
         - Hack: create IntByReference, swapToLowHighOrder and toString methods
         - swapToLowHighOrder
@@ -26,6 +27,12 @@
         - toString method
           - return a string rather than object to print 
           - %d used for integers
+          ```
+           //toString method to return string rather than object
+           public String toString() {
+                return (String.format("%d", this.value)); //%d used for integers 
+            }
+           ```
      - Formatted [matrix](https://replit.com/@avabrooks/Tri-3-TT0#src/Matrix.java)
         - Hack: create toString method using nested for loops to format output of a matrix
         - toString method
@@ -33,6 +40,21 @@
            - Use nested for loops(columns vs. rows?)
            - Can use StringBuilder to help change sequence
            - Use %x to format hex
+         ```
+         // toString method to format matrix
+           public String toString() {
+            StringBuilder output = new StringBuilder();
+            //use for loop to iterate through rows
+            for (int[] row : matrix) {
+            // nested loop for columns 
+            for (int cell : row) {
+                output.append((cell==-1) ? " " : String.format("%x",cell)).append(" "); //%x to format for integers and letters
+                }
+                 output.append("\n"); // create new line for formatting matrix to match desired output 
+             }
+            return output.toString();
+            }
+            ```
  * Notes: 
      - Data Structure: method of organizing data
      - **Programming Paradigms:** approach/method to write software applications 
