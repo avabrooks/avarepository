@@ -16,7 +16,7 @@
 
 # Quick Links:
  - [Group Pages](https://unblocked00.github.io/swagketo/)
- - 
+
 
 
 
