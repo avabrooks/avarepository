@@ -21,9 +21,9 @@
           //method to compare values
            public void swapToLowHighOrder(SwitchNumbers i) {
           if (this.value > i.value) {
-            int z = this.value;
+            int y = this.value;
             this.value = i.value;
-            i.value = z;
+            i.value = y;
                  }
               }
           ```
