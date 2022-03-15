@@ -1,5 +1,9 @@
 [Home](https://avabrooks.github.io/avarepository/) | [Techtalks](https://avabrooks.github.io/avarepository/techtalks) | [Reflections](https://avabrooks.github.io/avarepository/reflections) 
 
+## Week 1:
+* Plans:
+* Notes: 
+
 ## [Week 0](https://replit.com/@avabrooks/Tri-3-TT0#README.md)
  * Plans: 
      - Create Java [menu](https://replit.com/@avabrooks/Tri-3-TT0#src/Menu.java) using data structures
