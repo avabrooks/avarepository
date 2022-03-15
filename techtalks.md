@@ -39,7 +39,6 @@
            - Create two methods to format matrix(one regular, one reverse)
            - Use nested for loops(columns vs. rows?)
            - Can use StringBuilder to help change sequence
-           - Use %x to format hex
          ```
          // toString method to format matrix
            public String toString() {
@@ -48,9 +47,8 @@
             for (int[] row : matrix) {
             // nested loop for columns 
             for (int cell : row) {
-                output.append((cell==-1) ? " " : String.format("%x",cell)).append(" "); //%x to format for integers and letters
+                output.append((cell==-1) ? " " : String.format("%d",cell)).append(" "); 
                 }
-                 output.append("\n"); // create new line for formatting matrix to match desired output 
              }
             return output.toString();
             }
