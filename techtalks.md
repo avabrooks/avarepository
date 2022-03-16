@@ -8,6 +8,7 @@
           * opaqueObject means specific type is not known, as LinkedList are not specific to a data type
           * Use various setters for the nodes as wel as the opaqueObject
      * **Queues** are built using Linked List objects
+         * **Have** a linked list
      * Queue terms:
           * First = head node
           * Back = tail node
