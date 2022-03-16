@@ -13,7 +13,9 @@
           * Back = tail node
           * Current = current
           * enque = adding
+              * add to tail
           * deque = deleting
+              * remove from head
      * **Stacks**
           * Keeps track of last item inserted into Push entry and Pop extraction 
           * Similar real world example to a 'stack of plates' 
