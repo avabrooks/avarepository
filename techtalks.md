@@ -3,6 +3,18 @@
 ## Week 1: Linked Lists
 * Plans:
 * Notes: 
+     * **Linked Lists**
+          * Able to store and manage objects
+          * opaqueObject means specific type is not known, as LinkedList are not specific to a data type
+          * Use various setters for the nodes as wel as the opaqueObject
+     * **Queues** are built using Linked List objects
+     * Queue terms:
+          * First = head node
+          * Back = tail node
+          * Current = current
+     * **Stacks**
+          * Keeps track of last item inserted into Push entry and Pop extraction 
+          * Similar real world example to a 'stack of plates' 
 
 ## [Week 0](https://replit.com/@avabrooks/Tri-3-TT0#README.md): Data Structures
  * Plans: 
