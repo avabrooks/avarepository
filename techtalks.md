@@ -2,6 +2,13 @@
 
 ## Week 1: Linked Lists
 * Plans:
+    * Challenge #1:
+        * Add and Delete elements from Queue. Working with the code that is given, you will need to adjust Add and write Delete, to output from the Queue as follows.
+    * Challenge #2:
+        * Perform a merge or combination of 2 Queue's that are ordered. This is a foundation step for future Merge sorting. IMO, this algorithm is easier if you "peek" at data at the head of the queue, prior to performing dequeue action.
+    * Challenge #3:
+        * Build a stack and use it to reverse the order of a Queue. FYI, here is an implementation of Stack without Generic T and Iterable.
+
 * Notes: 
      * **Linked Lists**
           * Able to store and manage objects
