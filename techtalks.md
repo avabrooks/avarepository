@@ -12,9 +12,13 @@
           * First = head node
           * Back = tail node
           * Current = current
+          * enque = adding
+          * deque = deleting
      * **Stacks**
           * Keeps track of last item inserted into Push entry and Pop extraction 
           * Similar real world example to a 'stack of plates' 
+          * push = enque / add
+          * pop = deque / remove
   * Generic T: able to put a generic T to use any data type 
 
 
