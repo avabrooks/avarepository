@@ -1,10 +1,10 @@
 [Home](https://avabrooks.github.io/avarepository/) | [Techtalks](https://avabrooks.github.io/avarepository/techtalks) | [Reflections](https://avabrooks.github.io/avarepository/reflections) 
 
-## Week 1:
+## Week 1: Linked Lists
 * Plans:
 * Notes: 
 
-## [Week 0](https://replit.com/@avabrooks/Tri-3-TT0#README.md)
+## [Week 0](https://replit.com/@avabrooks/Tri-3-TT0#README.md): Data Structures
  * Plans: 
      - Create Java [menu](https://replit.com/@avabrooks/Tri-3-TT0#src/Menu.java) using data structures
         - can use java Runnable function to aide in creating menu for defining title and action based upon menu selection 
