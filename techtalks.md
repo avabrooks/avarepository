@@ -1,39 +1,42 @@
 [Home](https://avabrooks.github.io/avarepository/) | [Techtalks](https://avabrooks.github.io/avarepository/techtalks) | [Reflections](https://avabrooks.github.io/avarepository/reflections) 
 
 ## Week 1: Linked Lists
-* Plans:
-    * Challenge #1:
-        * Add and Delete elements from Queue. Working with the code that is given, you will need to adjust Add and write Delete, to output from the Queue as follows.
-    * Challenge #2:
-        * Perform a merge or combination of 2 Queue's that are ordered. This is a foundation step for future Merge sorting. IMO, this algorithm is easier if you "peek" at data at the head of the queue, prior to performing dequeue action.
-    * Challenge #3:
-        * Build a stack and use it to reverse the order of a Queue. FYI, here is an implementation of Stack without Generic T and Iterable.
+### Plans:
+ * Challenge #1:
+     * Add and Delete elements from Queue. Working with the code that is given, you will need to adjust Add and write Delete, to output from the Queue as follows.
+ * Challenge #2:
+     * Perform a merge or combination of 2 Queue's that are ordered. This is a foundation step for future Merge sorting. IMO, this algorithm is easier if you "peek" at data at the head of the queue, prior to performing dequeue action.
+ * Challenge #3:
+     * Build a stack and use it to reverse the order of a Queue. FYI, here is an implementation of Stack without Generic T and Iterable.
 
-* Notes: 
-     * **Linked Lists**
-          * Able to store and manage objects
-          * opaqueObject means specific type is not known, as LinkedList are not specific to a data type
-          * Use various setters for the nodes as wel as the opaqueObject
-     * **Queues** are built using Linked List objects
-         * **Have** a linked list
-     * Queue terms:
-          * First = head node
-          * Back = tail node
-          * Current = current
-          * enque = adding
-              * add to tail
-          * deque = deleting
-              * remove from head
-     * **Stacks**
-          * Keeps track of last item inserted into Push entry and Pop extraction 
-          * Similar real world example to a 'stack of plates' 
-          * push = enque / add
-          * pop = deque / remove
-  * Generic T: able to put a generic T to use any data type 
+### Notes: 
+  * **Linked Lists**
+       * Able to store and manage objects
+       * opaqueObject means specific type is not known, as LinkedList are not specific to a data type
+       * Use various setters for the nodes as wel as the opaqueObject
+  * **Queues** are built using Linked List objects
+      * **Have** a linked list
+  * Queue terms:
+       * First = head node
+       * Back = tail node
+       * Current = current
+       * enque = adding
+           * add to tail
+       * deque = deleting
+           * remove from head
+  * **Stacks**
+       * Keeps track of last item inserted into Push entry and Pop extraction 
+       * Similar real world example to a 'stack of plates' 
+       * push = enque / add
+       * pop = deque / remove
+* Generic T: able to put a generic T to use any data type 
+   * Understanding [Generic T](https://docs.oracle.com/javase/tutorial/java/generics/types.html)
+   * Don't have to use 'T' but commonly used letter for data type 
+   * Must train to be iterable
 
 
 ## [Week 0](https://replit.com/@avabrooks/Tri-3-TT0#README.md): Data Structures
- * Plans: 
+### Plans: 
      - Create Java [menu](https://replit.com/@avabrooks/Tri-3-TT0#src/Menu.java) using data structures
         - can use java Runnable function to aide in creating menu for defining title and action based upon menu selection 
         - Use java scanner(similar to old menu) to get user input
@@ -85,7 +88,7 @@
             return output.toString();
             }
             ```
- * Notes: 
+### Notes: 
      - Data Structure: method of organizing data
      - **Programming Paradigms:** approach/method to write software applications 
           - Imperative: statements to change a program's state - "how"
