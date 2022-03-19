@@ -6,7 +6,7 @@
 | Week | Theme | Tech Talk | Ticket | 
 | ------ | ----- | ----- | ---- |
 | 0| Teams, Plans, Jobs | [Data Structures](https://avabrooks.github.io/avarepository/techtalks) | [Ticket](https://github.com/avabrooks/avarepository/issues/1)
-| 1| TData Structures Challenge 1 | [Linked Lists](https://avabrooks.github.io/avarepository/techtalks) | [Ticket](https://github.com/avabrooks/avarepository/issues/2)
+| 1| Data Structures Challenge 1 | [Linked Lists](https://avabrooks.github.io/avarepository/techtalks) | [Ticket](https://github.com/avabrooks/avarepository/issues/2)
 
 ## Github Activity:
 
@@ -16,7 +16,7 @@
 
 
 # Quick Links:
- - [Group Pages](https://unblocked00.github.io/swagketo/)
+ - [Group Pages](https://avabrooks.github.io/swagketo/)
 
 
 
