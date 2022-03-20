@@ -32,32 +32,28 @@
             return ((Iterable<T>) list).iterator();
           }
          ```
-         * Created print printInfo method to format printed output
-         
+         * Created print printInfo method to format printed outpu
          ```
-         // printInfo method uses String Builder to use .append()
-          public String printInfo(){
-            StringBuilder output = new StringBuilder();
+             // printInfo method uses String Builder to use .append()
+              public String printInfo(){
+                StringBuilder output = new StringBuilder();
 
-            output.append("Item Count: " + list.size() + ", data: ");
+                output.append("Item Count: " + list.size() + ", data: ");
 
-          // if nothing left in list, print null(last line)  
-          if (list.size() == 0){
-            output.append("null");
+              // if nothing left in list, print null(last line)  
+              if (list.size() == 0){
+                output.append("null");
+                  }
+                else{    
+                  // for each item(using generic T) append the item and a space(formatting)
+                  for (T item : this)
+                    output.append(item + " ");
+                  }
+                // use toString since we are using strings in the queue
+                return output.toString();
+                 }  
               }
-            else{    
-              // for each item(using generic T) append the item and a space(formatting)
-              for (T item : this)
-                output.append(item + " ");
-              }
-            // use toString since we are using strings in the queue
-            return output.toString();
-             }  
-          }
-          ```
-          
-          * Called this method in tester method which is run using Runnable after user selection 
-  
+          ``` 
  * Challenge #2:
      * Perform a merge or combination of 2 Queue's that are ordered. This is a foundation step for future Merge sorting. IMO, this algorithm is easier if you "peek" at data at the head of the queue, prior to performing dequeue action.
          * Created two [priority queues](https://www.geeksforgeeks.org/priority-queue-class-in-java/)
@@ -66,23 +62,23 @@
          * Created 'merge' method 
          
          ```
-         Queue<String> mergedQueue = new PriorityQueue<String>();
+             Queue<String> mergedQueue = new PriorityQueue<String>();
 
-        // While both of the queues are not empty
-        while (!first.isEmpty() && !second.isEmpty()) {
-          // use .peek() method to see head of queue
-            String left = first.peek();
-            String right = second.peek();
+            // While both of the queues are not empty
+            while (!first.isEmpty() && !second.isEmpty()) {
+              // use .peek() method to see head of queue
+                String left = first.peek();
+                String right = second.peek();
 
-          // use .compareTo to compare Strings
-            if (left.compareTo(right) < 0) {
-                mergedQueue.add(first.poll());
-            } else {
-                mergedQueue.add(second.poll());
+              // use .compareTo to compare Strings
+                if (left.compareTo(right) < 0) {
+                    mergedQueue.add(first.poll());
+                } else {
+                    mergedQueue.add(second.poll());
+                }
             }
-        }
-        return mergedQueue;
-         ```
+            return mergedQueue;
+        ```
          
          * Called method along with toString method to format queues and print formatted merged queue
          ```
