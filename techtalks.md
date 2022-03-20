@@ -33,7 +33,9 @@
           }
          ```
          * Created print printInfo method to format printed output
+         
          ```
+         
              // printInfo method uses String Builder to use .append()
               public String printInfo(){
                 StringBuilder output = new StringBuilder();
@@ -53,7 +55,9 @@
                 return output.toString();
                  }  
               }
+              
           ``` 
+          
  * Challenge #2:
      * Perform a merge or combination of 2 Queue's that are ordered. This is a foundation step for future Merge sorting. IMO, this algorithm is easier if you "peek" at data at the head of the queue, prior to performing dequeue action.
          * Created two [priority queues](https://www.geeksforgeeks.org/priority-queue-class-in-java/)
@@ -78,10 +82,13 @@
                 }
             }
             return mergedQueue;
+            
         ```
          
          * Called method along with toString method to format queues and print formatted merged queue
+         
          ```
+         
              // use toString method to format queues as we added strings
             System.out.println("First queue: ");
             System.out.println(first.toString());
@@ -94,7 +101,9 @@
               //print merged queue
                 System.out.println("Merged queue: ");
                 System.out.println(output.toString());
+                
         ```
+        
  * Challenge #3:
      * Build a stack and use it to reverse the order of a Queue. 
          * Used LinkedList to create Stack 
