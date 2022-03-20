@@ -32,7 +32,7 @@
             return ((Iterable<T>) list).iterator();
           }
          ```
-         * Created print printInfo method to format printed outpu
+         * Created print printInfo method to format printed output
          ```
              // printInfo method uses String Builder to use .append()
               public String printInfo(){
@@ -88,12 +88,12 @@
             System.out.println("Second queue: ");
             System.out.println(second.toString());
 
-          //call merge method
-            Queue output = MergeQueue.merge(first, second);
+              //call merge method
+                Queue output = MergeQueue.merge(first, second);
 
-          //print merged queue
-            System.out.println("Merged queue: ");
-            System.out.println(output.toString());
+              //print merged queue
+                System.out.println("Merged queue: ");
+                System.out.println(output.toString());
         ```
  * Challenge #3:
      * Build a stack and use it to reverse the order of a Queue. 
