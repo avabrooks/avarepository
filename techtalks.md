@@ -9,6 +9,7 @@
          * Created two methods: enqueue and dequeue
              * Enqueue
              ```
+             //enqueue method creates LinkedList then adds data
              public void enqueue(T data) {
                 if (list == null){
                   list = new LinkedList<T>();
@@ -18,6 +19,7 @@
               ```
              * Dequeue
              ```
+              //dequeue method removes items from last
              public T dequeue(){
                 return list.removeLast();
               }
@@ -25,25 +27,31 @@
          * Used Iterator<T*> and Iterable to iterate over the objects in the queue
          * [.iterator](https://www.w3schools.com/java/java_iterator.asp)
          ```
+         // iterable method necessary to iterate using Generic T
            public Iterator<T> iterator() {
             return ((Iterable<T>) list).iterator();
           }
          ```
          * Created print printInfo method to format printed output
          ```
-         public String printInfo(){
+         // printInfo method uses String Builder to use .append()
+          public String printInfo(){
             StringBuilder output = new StringBuilder();
 
             output.append("Item Count: " + list.size() + ", data: ");
 
+          // if nothing left in list, print null(last line)  
           if (list.size() == 0){
             output.append("null");
               }
             else{    
+              // for each item(using generic T) append the item and a space(formatting)
               for (T item : this)
                 output.append(item + " ");
               }
+            // use toString since we are using strings in the queue
             return output.toString();
+             }  
           }
           ```
           * Called this method in tester method which is run using Runnable after user selection 
