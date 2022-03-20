@@ -96,7 +96,39 @@
             System.out.println(output.toString());
         ```
  * Challenge #3:
-     * Build a stack and use it to reverse the order of a Queue. FYI, here is an implementation of Stack without Generic T and Iterable.
+     * Build a stack and use it to reverse the order of a Queue. 
+         * Used LinkedList to create Stack 
+         * Created push method
+         ```
+           // push method used to add objects to stack 
+          public void push(T data) {
+            if (list == null){
+              list = new LinkedList<T>();
+            }
+            list.push(data);     
+          }
+         ```
+         * Used same iterator from challenge 1 to iterate through T data type
+         * Added 1, 2, 3 to queue
+         ```
+         // create queue to add integers
+          MyQueue<Integer> queue = new MyQueue<Integer>();
+          queue.enqueue(1);
+          queue.enqueue(2);
+          queue.enqueue(3);
+         ```
+         * Created a stack and called push method to print out reversed output
+         ```
+         // create stack
+          MyStack<Integer> stack = new MyStack<Integer>();
+          // use for loop to iterate through the queue
+          for (Integer item : queue){
+            // call push method to add objects to the stack 
+            stack.push(item);
+          }
+          // print stack 
+          System.out.println(stack.printInfo());
+       ```
 
 ### Notes: 
   * **Linked Lists**
