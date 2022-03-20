@@ -33,6 +33,7 @@
           }
          ```
          * Created print printInfo method to format printed output
+         
          ```
          // printInfo method uses String Builder to use .append()
           public String printInfo(){
@@ -54,6 +55,7 @@
              }  
           }
           ```
+          
           * Called this method in tester method which is run using Runnable after user selection 
   
  * Challenge #2:
@@ -62,6 +64,7 @@
              * Allows for objects to be sorted 'naturally' -> easy to do with integers based upon value 
          * Add Strings of integers to each queue
          * Created 'merge' method 
+         
          ```
          Queue<String> mergedQueue = new PriorityQueue<String>();
 
@@ -80,6 +83,7 @@
         }
         return mergedQueue;
          ```
+         
          * Called method along with toString method to format queues and print formatted merged queue
          ```
              // use toString method to format queues as we added strings
