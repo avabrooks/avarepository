@@ -58,6 +58,43 @@
   
  * Challenge #2:
      * Perform a merge or combination of 2 Queue's that are ordered. This is a foundation step for future Merge sorting. IMO, this algorithm is easier if you "peek" at data at the head of the queue, prior to performing dequeue action.
+         * Created two [priority queues](https://www.geeksforgeeks.org/priority-queue-class-in-java/)
+             * Allows for objects to be sorted 'naturally' -> easy to do with integers based upon value 
+         * Add Strings of integers to each queue
+         * Created 'merge' method 
+         ```
+         Queue<String> mergedQueue = new PriorityQueue<String>();
+
+        // While both of the queues are not empty
+        while (!first.isEmpty() && !second.isEmpty()) {
+          // use .peek() method to see head of queue
+            String left = first.peek();
+            String right = second.peek();
+
+          // use .compareTo to compare Strings
+            if (left.compareTo(right) < 0) {
+                mergedQueue.add(first.poll());
+            } else {
+                mergedQueue.add(second.poll());
+            }
+        }
+        return mergedQueue;
+         ```
+         * Called method along with toString method to format queues and print formatted merged queue
+         ```
+             // use toString method to format queues as we added strings
+            System.out.println("First queue: ");
+            System.out.println(first.toString());
+            System.out.println("Second queue: ");
+            System.out.println(second.toString());
+
+          //call merge method
+            Queue output = MergeQueue.merge(first, second);
+
+          //print merged queue
+            System.out.println("Merged queue: ");
+            System.out.println(output.toString());
+        ```
  * Challenge #3:
      * Build a stack and use it to reverse the order of a Queue. FYI, here is an implementation of Stack without Generic T and Iterable.
 
