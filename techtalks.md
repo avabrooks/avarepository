@@ -4,6 +4,50 @@
 ### Plans:
  * Challenge #1:
      * Add and Delete elements from Queue. Working with the code that is given, you will need to adjust Add and write Delete, to output from the Queue as follows.
+         * Created class 'MyQueue' that implemented Iterable<*T>
+         * Used LinkedList to create a queue called 'list'
+         * Created two methods: enqueue and dequeue
+             * Enqueue
+             ```
+             public void enqueue(T data) {
+                if (list == null){
+                  list = new LinkedList<T>();
+                }
+                list.add(data);     
+              }
+              ```
+             * Dequeue
+             ```
+             public T dequeue(){
+                return list.removeLast();
+              }
+             ```
+         * Used Iterator<T*> and Iterable to iterate over the objects in the queue
+         * [.iterator](https://www.w3schools.com/java/java_iterator.asp)
+         ```
+           public Iterator<T> iterator() {
+            return ((Iterable<T>) list).iterator();
+          }
+         ```
+         * Created print printInfo method to format printed output
+         ```
+         public String printInfo(){
+            StringBuilder output = new StringBuilder();
+
+            output.append("Item Count: " + list.size() + ", data: ");
+
+          if (list.size() == 0){
+            output.append("null");
+              }
+            else{    
+              for (T item : this)
+                output.append(item + " ");
+              }
+            return output.toString();
+          }
+          ```
+          * Called this method in tester method which is run using Runnable after user selection 
+  
  * Challenge #2:
      * Perform a merge or combination of 2 Queue's that are ordered. This is a foundation step for future Merge sorting. IMO, this algorithm is easier if you "peek" at data at the head of the queue, prior to performing dequeue action.
  * Challenge #3:
