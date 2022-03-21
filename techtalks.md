@@ -144,6 +144,12 @@
        * Able to store and manage objects
        * opaqueObject means specific type is not known, as LinkedList are not specific to a data type
        * Use various setters for the nodes as wel as the opaqueObject
+       
+       ```
+         public class MyQueue<T> implements Iterable<T> {
+      LinkedList<T> list;
+    ```
+    
   * **Queues** are built using Linked List objects
       * **Have** a linked list
   * Queue terms:
@@ -163,6 +169,12 @@
    * Understanding [Generic T](https://docs.oracle.com/javase/tutorial/java/generics/types.html)
    * Don't have to use 'T' but commonly used letter for data type 
    * Must train to be iterable
+   ```
+       // iterable method necessary to iterate using Generic T
+      public Iterator<T> iterator() {
+        return ((Iterable<T>) list).iterator();
+      }
+   ```
 
 
 ## [Week 0](https://replit.com/@avabrooks/Tri-3-TT0#README.md): Data Structures
