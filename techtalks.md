@@ -1,5 +1,10 @@
 [Home](https://avabrooks.github.io/avarepository/) | [Techtalks](https://avabrooks.github.io/avarepository/techtalks) | [Reflections](https://avabrooks.github.io/avarepository/reflections) 
 
+## Week 2: Calculator
+#### Plans: 
+### Notes:
+* 
+
 ## [Week 1:](https://replit.com/@avabrooks/Tri-3-TT0#src/Menu.java) Linked Lists
 ### Plans:
  * Challenge #1:
