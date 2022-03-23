@@ -9,6 +9,7 @@
 ### Notes:
 * Inputted turns into expressions -> tokens -> reverse Polish Notation
 * Need to write the rpnToResult method
+* Operators need precedence(ie multiplication above addition)
 
 ## [Week 1:](https://replit.com/@avabrooks/Tri-3-TT0#src/Menu.java) Linked Lists
 ### Plans:
