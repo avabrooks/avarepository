@@ -2,8 +2,13 @@
 
 ## Week 2: Calculator
 #### Plans: 
+* Build a calculator to process expressions and ultimately change RPN to a calculation.
+* Build in Power of operator ^: 2 ^ 1 = 2, 2 ^ 2 = 4, 2 ^ 3 = 8
+* Extra credit. Build variable assignment and evaluation into your expressions (a = 2; a + 1).
+* Extra credit. Investigate Wikipedia article and pseudo code and try adding a SQRT(). Try building Pythagoras expression.
 ### Notes:
-* 
+* Inputted turns into expressions -> tokens -> reverse Polish Notation
+* Need to write the rpnToResult method
 
 ## [Week 1:](https://replit.com/@avabrooks/Tri-3-TT0#src/Menu.java) Linked Lists
 ### Plans:
