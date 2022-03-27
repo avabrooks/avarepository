@@ -29,24 +29,23 @@
        ```
     * Created multiple if statements to check which operator it is
     
-         ```
-          if (token.charAt(0) == '*'){
-          r = d1 * d2;
-            }
-            else if (token.charAt(0) == '/'){
-              r = d2 / d1;
-            }
-            else if (token.charAt(0) == '%'){
-              r = d2 % d1;
-            }
-            else if (token.charAt(0) == '+'){
-              r = d1 + d2;
-            }
-            else if (token.charAt(0) == '-'){
-              r = d2 - d1;
-            }
-          ```
-          
+      ```
+             if (token.charAt(0) == '*'){
+             r = d1 * d2;
+               }
+               else if (token.charAt(0) == '/'){
+                 r = d2 / d1;
+               }
+               else if (token.charAt(0) == '%'){
+                 r = d2 % d1;
+               }
+               else if (token.charAt(0) == '+'){
+                 r = d1 + d2;
+               }
+               else if (token.charAt(0) == '-'){
+                 r = d2 - d1;
+               }
+      ```                 
     * Final result is popped
          ```
          this.result = (Double)calculation.pop();
