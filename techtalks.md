@@ -44,8 +44,9 @@
                }
                else if (token.charAt(0) == '-'){
                  r = d2 - d1;
-               }
-      ```                 
+               } 
+      ``` 
+      
     * Final result is popped
          ```
          this.result = (Double)calculation.pop();
