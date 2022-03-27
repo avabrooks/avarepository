@@ -28,6 +28,7 @@
         double r = 0d;
        ```
     * Created multiple if statements to check which operator it is
+    
          ```
           if (token.charAt(0) == '*'){
           r = d1 * d2;
@@ -45,6 +46,7 @@
               r = d2 - d1;
             }
           ```
+          
     * Final result is popped
          ```
          this.result = (Double)calculation.pop();
