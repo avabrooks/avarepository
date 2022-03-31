@@ -6,9 +6,9 @@
 | Week | Theme | Tech Talk | Ticket | 
 | ------ | ----- | ----- | ---- |
 | 3| Sorts | [Github Pages](https://avabrooks.github.io/avarepository/techtalks) | [Ticket](https://github.com/avabrooks/avarepository/issues/4)
-| 2| Data Structures Challenge 2 | [Calculator](https://avabrooks.github.io/avarepository/techtalks) | [Ticket](https://github.com/avabrooks/avarepository/issues/3)
-| 1| Data Structures Challenge 1 | [Linked Lists](https://avabrooks.github.io/avarepository/techtalks) | [Ticket](https://github.com/avabrooks/avarepository/issues/2)
-| 0| Teams, Plans, Jobs | [Data Structures](https://avabrooks.github.io/avarepository/techtalks) | [Ticket](https://github.com/avabrooks/avarepository/issues/1)
+| 2| Data Structures Challenge 2 | [Calculator](https://avabrooks.github.io/avarepository/blog) | [Ticket](https://github.com/avabrooks/avarepository/issues/3)
+| 1| Data Structures Challenge 1 | [Linked Lists](https://avabrooks.github.io/avarepository/blog) | [Ticket](https://github.com/avabrooks/avarepository/issues/2)
+| 0| Teams, Plans, Jobs | [Data Structures](https://avabrooks.github.io/avarepository/blog) | [Ticket](https://github.com/avabrooks/avarepository/issues/1)
 
 
 ## Github Activity:
