@@ -5,7 +5,7 @@
 
 | Week | Theme | Tech Talk | Ticket | 
 | ------ | ----- | ----- | ---- |
-| 3| Sorts | [Github Pages](https://avabrooks.github.io/avarepository/TTW3) | [Ticket](https://github.com/avabrooks/avarepository/issues/4)
+| 3| Sorts and Analysis| [Analysis and Code](https://avabrooks.github.io/avarepository/TTW3) | [Ticket](https://github.com/avabrooks/avarepository/issues/4)
 | 2| Data Structures Challenge 2 | [Calculator](https://avabrooks.github.io/avarepository/TTW2) | [Ticket](https://github.com/avabrooks/avarepository/issues/3)
 | 1| Data Structures Challenge 1 | [Linked Lists](https://avabrooks.github.io/avarepository/TTW1) | [Ticket](https://github.com/avabrooks/avarepository/issues/2)
 | 0| Teams, Plans, Jobs | [Data Structures](https://avabrooks.github.io/avarepository/TTW0) | [Ticket](https://github.com/avabrooks/avarepository/issues/1)
