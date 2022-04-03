@@ -1,4 +1,4 @@
-[Home](https://avabrooks.github.io/avarepository/) | [Blog](https://avabrooks.github.io/avarepository/techtalks) | [Reflections](https://avabrooks.github.io/avarepository/reflections) | [Sorts](https://avabrooks.github.io/avarepository/reflections)
+[Home](https://avabrooks.github.io/avarepository/) | [Blog](https://avabrooks.github.io/avarepository/blog) | [Tech Talk Repl](https://replit.com/@avabrooks/Tri-3-TT#README.md)
 
 ## [Week 2](https://replit.com/@avabrooks/Tri-3-TT0#src/Calculator.java): Calculator
 #### Plans: 
