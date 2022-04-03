@@ -1,4 +1,4 @@
-[Home](https://avabrooks.github.io/avarepository/) | [Blog](https://avabrooks.github.io/avarepository/blog) | [Reflections](https://avabrooks.github.io/avarepository/reflections) | [Sorts](https://avabrooks.github.io/avarepository/reflections)
+[Home](https://avabrooks.github.io/avarepository/) | [Blog](https://avabrooks.github.io/avarepository/blog) | [Tech Talk Repl](https://replit.com/@avabrooks/Tri-3-TT#README.md)
 
 
 ## Tri 3 TimeBox: 
