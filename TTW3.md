@@ -196,9 +196,9 @@
     
   * Build a [GitHub page](https://avabrooks.github.io/avarepository/TTW3) that describes Sort implementations and the Big O complexity of these Sorts.
   * Establish analytics including: time, comparisons and swaps.
-   * Analyitics are unconvered after running sorts [here](https://replit.com/@avabrooks/Tri-3-TT#src/Sorts.java)
+    * Analyitics are unconvered after running sorts [here](https://replit.com/@avabrooks/Tri-3-TT#src/Sorts.java)
   * Average the results for each each Sort, run each at least 12 times and 5000 elements. You should throw out High and Low when doing analysis.
-   * Averages printed after each run [here](https://replit.com/@avabrooks/Tri-3-TT#src/Sorts.java)
+    * Averages printed after each run [here](https://replit.com/@avabrooks/Tri-3-TT#src/Sorts.java)
   
   * Make your final/judgement on best sort considering Data Structure loading, Comparisons, Swaps, Big O complexity, and Time:
     * **Analysis:**
