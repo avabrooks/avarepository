@@ -2,6 +2,8 @@
 
 # Sorts Notes
 ### **Challenge:**
+  * **Analysis:**
+     * After hypothesizing that the merge sort of insertion sort was going to be the fastest and the bubble sort was going to the slowest, I was somewhat right. After averaging my results, the merge sort is consistently the fastest sort(in milliseconds) usually ranging from 3-8 milliseconds while the bubble sort could take 300-400 milliseconds(a much longer time than the merge sort). However, comparisons wise, the insertion sort consistenyl has the least amount of comparisons. While bubble and selection sort have the same number ofc oparisons based upon the number of items being sorted. For swaps, the selection sort has the least amount of swaps, however because it takes a while for all of the comparisons, it is still not as fast as the merge sort. For this case, based upon the averages I have produced, I argue that the best sort is the merge sort. While multiple methods are required(at least in the way I approached it), these multiple methods allow for a faster sort with less comparisons. The merge sort is never slowest in terms of time and is very effecient in comparison to the other sorts and their avergae number of swaps and comparisons. 
   * [Build](https://replit.com/@avabrooks/Tri-3-TT#src/Sorts.java):
     *  Bubble Sort:
    
@@ -268,9 +270,7 @@
         
     * Averages printed after each run [here](https://replit.com/@avabrooks/Tri-3-TT#src/Sorts.java)
   
-  * Make your final/judgement on best sort considering Data Structure loading, Comparisons, Swaps, Big O complexity, and Time:
-    * **Analysis:**
-      start analysis here
+  * Make your final/judgement on best sort considering Data Structure loading, Comparisons, Swaps, Big O complexity, and Time(above)
 ### **Notes:**
  * Merge sort will likely have to be at least two method
    * Divide
