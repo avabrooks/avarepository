@@ -197,7 +197,75 @@
   * Build a [GitHub page](https://avabrooks.github.io/avarepository/TTW3) that describes Sort implementations and the Big O complexity of these Sorts.
   * Establish analytics including: time, comparisons and swaps.
     * Analyitics are unconvered after running sorts [here](https://replit.com/@avabrooks/Tri-3-TT#src/Sorts.java)
+    
+      ```
+      //method to print stats for a single run of each test
+      public void printStats(){
+        System.out.println("    Size: "+ size);
+        System.out.println("    Milliseconds: " + milliseconds);
+        System.out.println("    Comparisons: " + comparisons);
+        System.out.println("    Swaps: " + swaps);
+      }
+      
+       // create list with random numbers from 0-1000000
+       public static ArrayList<Integer> createList(int size){
+         ArrayList<Integer> unsorted = new ArrayList<Integer>();
+         Random r = new Random();
+         for (int i  = 0; i < size; i++){
+           unsorted.add(r.nextInt(1000000));
+         }
+         //returns the unsorted list to be called for each sort type 
+         return unsorted; 
+       }
+       
+       
+       public static void main(String[] args) {
+          Sorts s = new Sorts();
+
+        /*  
+          For each sort type, method is called once for a random set of 5000 data pieces and stats are printed
+        */
+
+          ArrayList<Integer> bubbleList = createList(5000);
+          s.bubbleSort(bubbleList);
+          System.out.println("Bubble Sort:");
+          s.printStats();
+          System.out.println("\n");
+      ```
+      
   * Average the results for each each Sort, run each at least 12 times and 5000 elements. You should throw out High and Low when doing analysis.
+       
+       ```
+       //create and define all variables used to find averages
+          long totalMilliseconds = 0;
+          long averageMilliseconds = 0;
+          long totalComparisons = 0;
+          long averageComparisons = 0;
+          long totalSwaps = 0;
+          long averageSwaps = 0;
+          long count = 13;
+
+          for (int i = 0; i < count; i++){
+            bubbleList = createList(5000);
+            s.bubbleSort(bubbleList);
+            totalMilliseconds += s.getMilliseconds();
+            totalComparisons += s.getComparisons();
+            totalSwaps += s.getSwaps();
+          }
+
+          System.out.println("Averages:");
+
+          averageMilliseconds = totalMilliseconds/count;
+          averageComparisons = totalComparisons/count;
+          averageSwaps = totalSwaps/count;
+
+          System.out.println("Bubble Sort: ");
+          System.out.println("    Time: " + averageMilliseconds);
+          System.out.println("    Comparisons: " + averageComparisons);
+          System.out.println("    Swaps: " + averageSwaps);
+          System.out.println("\n");
+        ```
+        
     * Averages printed after each run [here](https://replit.com/@avabrooks/Tri-3-TT#src/Sorts.java)
   
   * Make your final/judgement on best sort considering Data Structure loading, Comparisons, Swaps, Big O complexity, and Time:
