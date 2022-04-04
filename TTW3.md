@@ -1,7 +1,7 @@
 [Home](https://avabrooks.github.io/avarepository/) | [Blog](https://avabrooks.github.io/avarepository/blog) | [Tech Talk Repl](https://replit.com/@avabrooks/Tri-3-TT#README.md)
 
 # Sorts Notes
-* **Challenge:**
+### **Challenge:**
   * [Build](https://replit.com/@avabrooks/Tri-3-TT#src/Sorts.java):
     *  Bubble Sort:
    
@@ -203,12 +203,12 @@
   * Make your final/judgement on best sort considering Data Structure loading, Comparisons, Swaps, Big O complexity, and Time:
     * **Analysis:**
       start analysis here
-* **Notes:**
-* Merge sort will likely have to be at least two method
- * Divide 
- * Add
- * Could potentially make a third to make sorting easier for 5000 pieces
-* Use for loop to create averages of each of the sort analytics
- * Loop through and then store as variable?
- * Can calculate through Math functions or simple variable divison 
-* Hypothesis: Insertion or Merge sort will likely be the fastest while Bubble sort will likely be the slowest, purely based upon the overall generics of how these sorts work 
+### **Notes:**
+ * Merge sort will likely have to be at least two method
+   * Divide
+   * Add
+   * Could potentially make a third to make sorting easier for 5000 pieces
+ * Use for loop to create averages of each of the sort analytics
+  * Loop through and then store as variable?
+  * Can calculate through Math functions or simple variable divison 
+ * Hypothesis: Insertion or Merge sort will likely be the fastest while Bubble sort will likely be the slowest, purely based upon the overall generics of how these sorts work 
