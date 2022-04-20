@@ -6,7 +6,7 @@
 
 ### **Data Table:**
 
-| Sort      | Speed (Milliseconds) |
+| Sort      | Average Speed (Milliseconds) |
 | ----------- | ----------- |
 | Bubble     | 1379 |
 | Merge   | 11    |
