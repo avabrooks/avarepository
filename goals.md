@@ -21,6 +21,6 @@
   * **Wednesday:**
      Start and finish nav bar with new design. See if sponser emailed back before finalizing nav bar and features. 
   * **Thursday:**
-     Finish logo and design/overall layouts for all templates. Start login/signup pages(may depend on what sarah is working on with databases before connecting completelty) 
+     Finish logo and design/overall layouts for all templates. Watch AP Video #1
   * **Friday:**
-     Finish all tasks on [ticket](https://github.com/avabrooks/swagketo/issues/4)/catchup day to complete all goals for this week. Start profile pages, can create mockups with group/sponsor to ensure the design is user friendly and desirable. 
+     Finish all tasks on [ticket](https://github.com/avabrooks/swagketo/issues/4)/catchup day to complete all goals for this week. Watch AP Video #2. Start profile pages, can create mockups with group/sponsor to ensure the design is user friendly and desirable. 
