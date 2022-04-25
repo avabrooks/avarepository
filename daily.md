@@ -4,7 +4,7 @@
 
 ## 1: Primitive Data Types in Java 
 * Total of 8 data types: 
-  * ** Numbers:**
+  * **Numbers:**
       * Integers
         * int
         * whole numbers
@@ -32,4 +32,5 @@
 * COBOL: computing in buisness environment 
 * Java originates from C
 * Humans are object oriented individuals
+* Microwave example use of object-oriented programming
 * class is a 'factory' that generates a specefic object
