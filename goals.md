@@ -24,3 +24,6 @@
      Finish logo and design/overall layouts for all templates. Watch AP Video #1
   * **Friday:**
      Finish all tasks on [ticket](https://github.com/avabrooks/swagketo/issues/4)/catchup day to complete all goals for this week. Watch AP Video #2. Start profile pages, can create mockups with group/sponsor to ensure the design is user friendly and desirable. 
+     
+* **Coding Reflection:**
+  This week my plans changed a bit. With the addition of the 2 college board videos I shifted my inclass work and outside work. I completed all of my large tasks like the nav bar, overall styling, and starting to create templates. I would have liked to get more functionality on the templates, but with multiple people in our group gone this week it was harder to collaborate as we got back into the swing of PBL work. This next week I feel as though I know how to balance teh two AP daily videos along with PBL work. I should have set more team goals with other people who are working on differnt roles, however I completed my individual roles suffiecently.
