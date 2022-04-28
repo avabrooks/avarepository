@@ -34,3 +34,14 @@
 * Humans are object oriented individuals
 * Microwave example use of object-oriented programming
 * class is a 'factory' that generates a specefic object
+
+
+## 3: Boolean Expressions and if Statements
+* Boolean expressions:
+ * Selection
+   * if
+ * Iteration
+   * while
+   * for
+ * Methods
+   * return
