@@ -5,6 +5,7 @@
 
 | Week | Theme | Tech Talk | Ticket | 
 | ------ | ----- | ----- | ---- |
+| 6| Study Week 2| [MCQ Corrections](https://avabrooks.github.io/avarepository/corrections) | [Ticket](https://github.com/avabrooks/avarepository/issues/8)
 | 5| Study Week 1| [Goals](https://avabrooks.github.io/avarepository/goals)/[AP Daily Videos](https://avabrooks.github.io/avarepository/videos) | [Ticket](https://github.com/avabrooks/swagketo/issues/4)
 | 4| Individual Data Structures Final| [Video]() | [Ticket](https://github.com/avabrooks/avarepository/issues/7)
 | 3| Sorts and Analysis| [Analysis and Code](https://avabrooks.github.io/avarepository/TTW3) | [Ticket](https://github.com/avabrooks/avarepository/issues/4)
