@@ -5,6 +5,7 @@
 
 | Week | Theme | Tech Talk | Ticket | 
 | ------ | ----- | ----- | ---- |
+| 12| PBL 'til N@M| [Working w/ Database and Query](https://avabrooks.github.io/avarepository/finaldatabase) | [Ticket](https://github.com/avabrooks/avarepository/issues/22)
 | 6| Study Week 2| [MCQ Corrections](https://avabrooks.github.io/avarepository/corrections) | [Ticket](https://github.com/avabrooks/avarepository/issues/8)
 | 5| Study Week 1| [Goals](https://avabrooks.github.io/avarepository/goals)/[AP Daily Videos](https://avabrooks.github.io/avarepository/videos) | [Ticket](https://github.com/avabrooks/swagketo/issues/4)
 | 4| Individual Data Structures Final| [Video]() | [Ticket](https://github.com/avabrooks/avarepository/issues/7)
