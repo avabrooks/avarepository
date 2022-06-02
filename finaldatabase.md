@@ -7,13 +7,13 @@
     * [SQL Repository](https://github.com/avabrooks/swagketo/blob/master/src/main/java/com/nighthawk/csa/database/posts/PostsSqlRepository.java)
     * [JPA Repository](https://github.com/avabrooks/swagketo/blob/master/src/main/java/com/nighthawk/csa/database/posts/PostsJpaRepository.java#L16-L19) w/ query implementation 
     * [ModelRepository](https://github.com/avabrooks/swagketo/blob/master/src/main/java/com/nighthawk/csa/database/ModelRepository.java#L210-L228) use with Posts database
- * [**Create post:**](url)
+ * [**Create post:**](http://swagketo.tk/createpost)
     * Front end with [form](https://github.com/avabrooks/swagketo/blob/master/src/main/resources/templates/userpages/createpost.html#L22-L38) and thyme leaf use
     * [Back end](https://github.com/avabrooks/swagketo/blob/master/src/main/java/com/nighthawk/csa/database/posts/PostsSqlMvcController.java#L26-L38) with post and get mapping to save to database
 <img src="src/main/resources/static/images/Screenshot (178).png"
     alt="Markdown Monster icon"
     style="float: left; margin-right: 10px;" />
-  * [**Displaying all posts and search:**](url)
+  * [**Displaying all posts and search:**](http://swagketo.tk/allposts)
     * Front End:
       * Displaying [all posts](https://github.com/avabrooks/swagketo/blob/master/src/main/resources/templates/userpages/posts.html#L43-L49) w/ thyme leaf
       * Search [input box](https://github.com/avabrooks/swagketo/blob/master/src/main/resources/templates/userpages/posts.html#L27-L31)
