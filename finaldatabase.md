@@ -31,4 +31,5 @@
  <img src="src/main/resources/static/images/Screenshot (179).png"
  alt="Markdown Monster icon"
  style="float: left; margin-right: 10px;" />
+  extend
 
